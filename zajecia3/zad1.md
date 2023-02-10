@@ -1,7 +1,7 @@
 ```blocks
-brama.open_gate()
+Brama.Open_Gate()
 ```
-# Aby otworzyć brame użyj bloczka ``||brama:Otwórz brame||``
+## Aby otworzyć brame użyj bloczka ``||brama:Otwórz brame||``
 ```blocks
-brama.open_gate()
+Brama.Open_Gate()
 ```
