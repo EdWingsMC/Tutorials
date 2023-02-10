@@ -94,7 +94,7 @@ namespace Schody {
 }
     }
     //% block="Napraw białe schody"
-    export function Repair_white_Stairs(): void {
+    export function Repair_White_Stairs(): void {
         blocks.place(QUARTZ_STAIRS, world(100, 4, -426))
         blocks.place(QUARTZ_STAIRS, world(100, 4, -425))
         blocks.place(QUARTZ_STAIRS, world(103, 7, -426))
