@@ -42,7 +42,7 @@ namespace Brama {
         )
         loops.pause(100)
         blocks.place(REDSTONE_TORCH, world(111, -8, -378))
-
+        agent.teleport(world(87, -3, -394), NORTH)
     }
 
     // /**
