@@ -16,7 +16,8 @@ namespace Brama {
      * @param s describe parameter here, eg: "Hello"
      * @param e describe parameter here
      */
-    //% block
+    
+    //% block="Otwórz brame"
     export function Open_Gate(): void {
         loops.pause(200)
         blocks.fill(
