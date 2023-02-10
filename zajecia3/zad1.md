@@ -1,7 +1,8 @@
 ```blocks
 Brama.Open_Gate()
 ```
-## Aby otworzyć brame użyj bloczka ``||brama:Otwórz brame||``
+## Krok 1
+Aby otworzyć brame użyj bloczka ``||brama:Otwórz brame||``
 ```blocks
 Brama.Open_Gate()
 ```
