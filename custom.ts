@@ -54,3 +54,35 @@ namespace Brama {
     //     return value <= 1 ? value : fib(value -1) + fib(value - 2);
     // }
 }
+//% weight=100 color=#0fbc11 icon=""
+namespace Schody {
+    
+    //% block="Napraw niebieskie schody"
+    export function Repair_Orange_Stairs(): void {
+        blocks.place(RED_SANDSTONE_STAIRS, world(99, 3, -426))
+        blocks.place(RED_SANDSTONE_STAIRS, world(99, 3, -425))
+        blocks.place(RED_SANDSTONE_STAIRS, world(102, 6, -426))
+        blocks.place(RED_SANDSTONE_STAIRS, world(102, 6, -425))
+        blocks.place(RED_SANDSTONE_STAIRS, world(105, 9, -426))
+        blocks.place(RED_SANDSTONE_STAIRS, world(105, 9, -425))
+    }
+ //% block="Napraw zielone schody"
+    export function Repair_Green_Stairs(): void {
+        blocks.place(DARK_PRISMARINE_STAIRS, world(104, 8, -426))
+        blocks.place(DARK_PRISMARINE_STAIRS, world(104, 8, -425))
+        blocks.place(DARK_PRISMARINE_STAIRS, world(107, 11, -426))
+        blocks.place(DARK_PRISMARINE_STAIRS, world(107, 11, -425))
+        blocks.place(DARK_PRISMARINE_STAIRS, world(101, 5, -426))
+        blocks.place(DARK_PRISMARINE_STAIRS, world(101, 5, -425))
+    }
+    //% block="Napraw białe schody"
+    export function Repair_white_Stairs(): void {
+        blocks.place(QUARTZ_STAIRS, world(100, 4, -426))
+        blocks.place(QUARTZ_STAIRS, world(100, 4, -425))
+        blocks.place(QUARTZ_STAIRS, world(103, 7, -426))
+        blocks.place(QUARTZ_STAIRS, world(103, 7, -425))
+        blocks.place(QUARTZ_STAIRS, world(106, 10, -426))
+        blocks.place(QUARTZ_STAIRS, world(106, 10, -425))
+
+    }
+}
