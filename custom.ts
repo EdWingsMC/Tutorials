@@ -65,6 +65,15 @@ namespace Schody {
         blocks.place(RED_SANDSTONE_STAIRS, world(102, 6, -425))
         blocks.place(RED_SANDSTONE_STAIRS, world(105, 9, -426))
         blocks.place(RED_SANDSTONE_STAIRS, world(105, 9, -425))
+        loops.pause(200)
+        if (blocks.testForBlock(RED_SANDSTONE_STAIRS, world(99, 3, -426)) && (blocks.testForBlock(DARK_PRISMARINE_STAIRS, world(107, 11, -426)) && blocks.testForBlock(QUARTZ_STAIRS, world(100, 4, -426)))) {
+    blocks.fill(
+    AIR,
+    world(98, 3, -425),
+    world(98, 3, -426),
+    FillOperation.Replace
+    )
+}
     }
  //% block="Napraw zielone schody"
     export function Repair_Green_Stairs(): void {
@@ -74,6 +83,15 @@ namespace Schody {
         blocks.place(DARK_PRISMARINE_STAIRS, world(107, 11, -425))
         blocks.place(DARK_PRISMARINE_STAIRS, world(101, 5, -426))
         blocks.place(DARK_PRISMARINE_STAIRS, world(101, 5, -425))
+        loops.pause(200)
+        if (blocks.testForBlock(RED_SANDSTONE_STAIRS, world(99, 3, -426)) && (blocks.testForBlock(DARK_PRISMARINE_STAIRS, world(107, 11, -426)) && blocks.testForBlock(QUARTZ_STAIRS, world(100, 4, -426)))) {
+    blocks.fill(
+    AIR,
+    world(98, 3, -425),
+    world(98, 3, -426),
+    FillOperation.Replace
+    )
+}
     }
     //% block="Napraw białe schody"
     export function Repair_white_Stairs(): void {
@@ -83,6 +101,14 @@ namespace Schody {
         blocks.place(QUARTZ_STAIRS, world(103, 7, -425))
         blocks.place(QUARTZ_STAIRS, world(106, 10, -426))
         blocks.place(QUARTZ_STAIRS, world(106, 10, -425))
-
+        loops.pause(200)
+if (blocks.testForBlock(RED_SANDSTONE_STAIRS, world(99, 3, -426)) && (blocks.testForBlock(DARK_PRISMARINE_STAIRS, world(107, 11, -426)) && blocks.testForBlock(QUARTZ_STAIRS, world(100, 4, -426)))) {
+    blocks.fill(
+    AIR,
+    world(98, 3, -425),
+    world(98, 3, -426),
+    FillOperation.Replace
+    )
+}
     }
 }
