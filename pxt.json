@@ -10,7 +10,8 @@
         "main.ts",
         "README.md",
         "custom.ts",
-        "zajecia3/zad1.md"
+        "zajecia3/zad1.md",
+        "zajecia3/zad2.md"
     ],
     "testFiles": [
         "test.ts"
