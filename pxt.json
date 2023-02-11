@@ -12,7 +12,8 @@
         "custom.ts",
         "zajecia3/zad1.md",
         "zajecia3/zad2.md",
-        "zajecia3/zad3.md"
+        "zajecia3/zad3.md",
+        "zajecia3/zad4.md"
     ],
     "testFiles": [
         "test.ts"
