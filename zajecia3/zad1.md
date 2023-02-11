@@ -3,7 +3,7 @@ Brama.Open_Gate()
 ```
 # Wprowadzenie do programowania
 ## Krok 1
-Aby otworzyć brame przeciągnij bloczek ``||brama:Otwórz brame||`` z zakładki Brama i włóź do pętli ``||loops:podczas uruchomienia||``
+Aby otworzyć brame przeciągnij bloczek ``||brama:Otwórz brame||`` z zakładki Brama i włóź do pętli ``||loops:podczas uruchamiania||``
 ```blocks
 Brama.Open_Gate()
 ```
