@@ -45,7 +45,7 @@ namespace Brama {
 //% weight=100 color=#0fbc11 icon=""
 namespace Schody {
     
-    //% block="Napraw niebieskie schody"
+    //% block="Napraw pomarańczowe schody"
     export function Repair_Orange_Stairs(): void {
         blocks.place(RED_SANDSTONE_STAIRS, world(99, 3, -426))
         blocks.place(RED_SANDSTONE_STAIRS, world(99, 3, -425))
