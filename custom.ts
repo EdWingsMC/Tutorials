@@ -10,12 +10,7 @@
  */
 //% weight=100 color=#0fbc11 icon=""
 namespace Brama {
-    /**
-     * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "Hello"
-     * @param e describe parameter here
-     */
+   
     
     //% block="Otwórz brame"
     export function Open_Gate(): void {
@@ -45,14 +40,7 @@ namespace Brama {
         agent.teleport(world(87, -3, -394), NORTH)
     }
 
-    // /**
-    //  * TODO: describe your function here
-    //  * @param value describe value here, eg: 5
-    //  */
-    // //% block
-    // export function fib(value: number): number {
-    //     return value <= 1 ? value : fib(value -1) + fib(value - 2);
-    // }
+
 }
 //% weight=100 color=#0fbc11 icon=""
 namespace Schody {
@@ -117,7 +105,7 @@ if (blocks.testForBlock(RED_SANDSTONE_STAIRS, world(99, 3, -426)) && (blocks.tes
 }
 //% weight=100 color=#D2AFFF icon="" block="Podaj odpowiedź"
 namespace PodajOdp {
-     //% block="Odpowiedź to "
+     //% block="Odpowiedź to $value"
     export function Math_result_1(value: number): void {
         if (value == 31) {
     player.teleport(world(148, 28, -552))
@@ -125,7 +113,7 @@ namespace PodajOdp {
     player.say("Zła odpowiedź")
 }
     }
-     //% block="Odpowiedź to "
+     //% block="Odpowiedź to $value"
     export function Math_result_2(value: number): void {
         if (value == 10) {
     player.teleport(world(148, 48, -552))
