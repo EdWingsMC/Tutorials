@@ -73,6 +73,7 @@ namespace Schody {
     world(98, 3, -426),
     FillOperation.Replace
     )
+            agent.teleport(world(133, 16, -449), WEST)
 }
     }
  //% block="Napraw zielone schody"
@@ -91,6 +92,7 @@ namespace Schody {
     world(98, 3, -426),
     FillOperation.Replace
     )
+            agent.teleport(world(133, 16, -449), WEST)
 }
     }
     //% block="Napraw białe schody"
@@ -109,6 +111,7 @@ if (blocks.testForBlock(RED_SANDSTONE_STAIRS, world(99, 3, -426)) && (blocks.tes
     world(98, 3, -426),
     FillOperation.Replace
     )
+    agent.teleport(world(133, 16, -449), WEST)
 }
     }
 }
