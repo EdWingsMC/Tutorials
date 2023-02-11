@@ -1,15 +1,15 @@
 ```blocks
-// @hide
+ @hide
 Brama.Open_Gate()
-// @hide
+ @hide
 Schody.Repair_Orange_Stairs()
-// @hide
+ @hide
 Schody.Repair_White_Stairs()
-// @hide
+ @hide
 Schody.Repair_Green_Stairs()
-// @hide
+@hide
 PodajOdp.Math_result_1()
-// @hide
+ @hide
 PodajOdp.Math_result_2()
 ```
 ## Przetestuj teraz pełne możliwości programowania
