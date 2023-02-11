@@ -1,5 +1,5 @@
 ```blocks
-Matematyka.Math_result_1(1)
+PodajOdp.Math_result_1(1)
 ```
 # Zadanie matematyczne
 ## Zadanie 1
