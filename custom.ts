@@ -103,7 +103,8 @@ if (blocks.testForBlock(RED_SANDSTONE_STAIRS, world(99, 3, -426)) && (blocks.tes
 }
     }
 }
-//% weight=100 color=#D2AFFF icon="" block="Zadania"
+
+//% weight=100 color=#D2AFFF icon="" 
 namespace PodajOdp {
      //% block="Odpowiedź to $value"
     export function Math_result_1(value: number): void {
