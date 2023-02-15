@@ -104,7 +104,7 @@ namespace Schody {
     }
 }
 
-//% weight=100 color=#D2AFFF icon="" 
+//% weight=100 color=#D2AFFF icon="" block="Agent"
 namespace PodajOdp {
     //% block="Odpowiedź to $value"
     export function Math_result_1(value: number): void {
