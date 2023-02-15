@@ -171,10 +171,10 @@ namespace AgentMove {
     //% block="Zbadaj blok"
     export function AgentTest_4(): void {
         if (agent.inspect(AgentInspection.Block, FORWARD) == GOLD_BLOCK) {
-            blocks.place(GLASS, world(-1031, 63, 1821))
-            blocks.place(GLASS, world(-1032, 63, 1822))
-            blocks.place(GOLD_BLOCK, world(-1033, 63, 1821))
-            blocks.place(GLASS, world(-1032, 63, 1820))
+            blocks.place(AIR, world(-1031, 63, 1821))
+            blocks.place(AIR, world(-1032, 63, 1822))
+            blocks.place(AIR_BLOCK, world(-1033, 63, 1821))
+            blocks.place(AIR, world(-1032, 63, 1820))
             blocks.place(REDSTONE_TORCH, world(-1014, 60, 1819))
         } else {
             player.say("Źle ustawiony agent")
