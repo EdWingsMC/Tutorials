@@ -123,7 +123,7 @@ namespace PodajOdp {
         }
     }
 }
-//% weight=100 color=#fc7703 icon="" 
+//% weight=100 color=#FC7703 icon="" 
 namespace AgentMove {
 
     //% block="agent obróć się w $value"
