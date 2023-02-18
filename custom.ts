@@ -227,4 +227,13 @@ namespace HarvestTest {
         }
         
     }
+      //% block="Czy jest bezpiecznie"
+     export function BeeTest(): void {
+        if (blocks.testForBlock(AIR, world(-1069, 63, 1845)) && (blocks.testForBlock(AIR, world(-1074, 63, 1839)) && blocks.testForBlock(AIR, world(-1075, 63, 1848)))) {
+    blocks.place(REDSTONE_TORCH, world(-1065, 60, 1854))
+}else{
+    player.say("Nie zniszczyłeś wszystkich uli")
+}
+        
+    }
 }
