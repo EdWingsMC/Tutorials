@@ -126,6 +126,10 @@ namespace PodajOdp {
 //% weight=100 color=#FC7703 icon="" block="Agent"
 namespace AgentMove {
 
+     //% block="agent umieść $value"
+    export function AgentPlace(value: SixDirection): void {
+        agent.place(value)
+    }
     //% block="agent obróć się w $value"
     export function AgentTurn(value: TurnDirection): void {
         agent.turn(value)
