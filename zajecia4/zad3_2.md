@@ -1,6 +1,7 @@
 ```blocks
 AgentMove.AgentMove(DOWN)
 AgentMove.AgentGetItem()
+AgentMove.AgentPlace(FORWARD)
 HarvestTest.SeedsTest()
 ```
 ## Krok 1 
