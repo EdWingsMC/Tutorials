@@ -189,7 +189,7 @@ namespace AgentMove {
         agent.setItem(SEEDS, 1, 1)
     }
 }
-//% weight=100 color=#7FFC03 icon="" block="Strefa badań"
+//% weight=100 color=#7FFC03 icon="" block="Strefa badań"
 namespace HarvestTest {
     //% block="Zbadaj czy zaorane"
     export function TillTest(): void {
