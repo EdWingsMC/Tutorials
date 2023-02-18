@@ -22,7 +22,9 @@
         "zajecia4/zad2_1.md",
         "zajecia4/zad2_2.md",
         "zajecia4/zad2_3.md",
-        "zajecia4/zad2_4.md"
+        "zajecia4/zad2_4.md",
+        "zajecia4/zad3_1.md",
+        "zajecia4/zad3_2.md"
     ],
     "testFiles": [
         "test.ts"
