@@ -104,7 +104,7 @@ namespace Schody {
     }
 }
 
-//% weight=100 color=#D2AFFF icon="" block="Agent"
+//% weight=100 color=#D2AFFF icon="" 
 namespace PodajOdp {
     //% block="Odpowiedź to $value"
     export function Math_result_1(value: number): void {
@@ -123,12 +123,16 @@ namespace PodajOdp {
         }
     }
 }
-//% weight=100 color=#FC7703 icon="" 
+//% weight=100 color=#FC7703 icon="" block="Agent"
 namespace AgentMove {
 
     //% block="agent obróć się w $value"
     export function AgentTurn(value: TurnDirection): void {
         agent.turn(value)
+    }
+     //% block="agent przesuń $value o $dist"
+     export function AgentMove(value: SixDirection,dist:number): void {
+        agent.move(value, dist)
     }
     //% block="Zbadaj blok"
     export function AgentTest_1(): void {
@@ -179,5 +183,44 @@ namespace AgentMove {
         } else {
             player.say("Źle ustawiony agent")
         }
+    }
+      //% block="Daj nasiona agentowi"
+      export function AgentGetItem(): void {
+        agent.setItem(SEEDS, 1, 1)
+    }
+}
+//% weight=100 color=#7FFC03 icon="" block="Strefa badań"
+namespace HarvestTest {
+    //% block="Zbadaj czy zaorane"
+    export function TillTest(): void {
+        let x = 1771
+        for (let index = 0; index < 7; index++) {
+            if (blocks.testForBlock(FARMLAND, world(-1039, 63, x))) {
+                x += 1
+            }
+        }
+        if (x == 1778) {
+            blocks.place(REDSTONE_TORCH, world(-1043, 60, 1754))
+            agent.teleport(world(-1039, 64, 1770), SOUTH)
+        } else {
+            player.say("Nie wszystkie pola są zaorane")
+        }
+    }
+  
+     //% block="Zbadaj czy zasadzone"
+     export function SeedsTest(): void {
+        let x = 1771
+        for (let index = 0; index < 7; index++) {
+            if (blocks.testForBlock(CROPS, world(-1039, 64, x))) {
+                x += 1
+            }
+        }
+        if (x == 1778) {
+            blocks.place(REDSTONE_TORCH, world(-1041, 60, 1754))
+            blocks.place(REDSTONE_TORCH, world(-1031, 60, 1756))
+        } else {
+            player.say("Nie wszystkie pola są zasadzone")
+        }
+        
     }
 }
