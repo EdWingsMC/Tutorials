@@ -1,5 +1,4 @@
-# EdWings
-## Tutorials for Minecraft lesson 
+# EdWings - **_Tutorials for Minecraft lesson_** 
 
-## We start in 2023<br> https://edwings.pl
+ https://edwings.pl<br>
 Author: Łukasz Zaraska
