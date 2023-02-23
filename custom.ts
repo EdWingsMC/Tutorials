@@ -190,7 +190,7 @@ namespace AgentMove {
     }
       //% block="Daj nasiona agentowi"
       export function AgentGetItem(): void {
-        agent.setItem(SEEDS, 1, 1)
+        agent.setItem(SEEDS, 8, 1)
     }
 }
 //% weight=100 color=#7FFC03 icon="" block="Strefa badań"
