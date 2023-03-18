@@ -20,7 +20,7 @@ player.onItemInteracted(BLAZE_ROD, function () {
 })
 ```
 ## Krok 3 
-Następnie wkładamy do niego bloczek ``||loop:powtórz 4 razy wykonaj||``
+Następnie wkładamy do niego bloczek ``||loops:powtórz 4 razy wykonaj||``
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () {
