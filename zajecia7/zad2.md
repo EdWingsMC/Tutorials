@@ -29,7 +29,7 @@ Dodaj obrót agenta w odpowiednią strone
 agent.turn(RIGHT_TURN)
 ```
 ## Krok 5 
-Umieśc obydwa bloczki do pętli ``||loop:Powtórz ? razy wykonaj||``
+Umieśc obydwa bloczki do pętli ``||loops:Powtórz ? razy wykonaj||``
 
 ## Krok 6 
 Policz ile razy ma wykonać się pętla licząc boki trasy po której ma poruszać się agent i wpisz liczbe do pętli
