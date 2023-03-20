@@ -20,5 +20,5 @@ A poniżej pętli umieścimy bloczek ``||agent: przesuń w prawo o 1||``
 
 ## Krok 5
 Stwórz program i go uruchom <br>
-**Uwaga wykonanie programu może chwile potrwać**<br>
-**Jeśli coś nie zadziała zresetuj agenta i zacznij od nowa**
+**Uwaga wykonanie programu może chwile potrwać.**<br><br>
+**Jeśli coś nie zadziała zresetuj agenta i zacznij od nowa.**
