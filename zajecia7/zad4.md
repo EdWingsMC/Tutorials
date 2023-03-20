@@ -15,6 +15,6 @@ Policz ile kratek agent musi iść do przodu i do góry
 ## Krok 3
 Policz ile pięter jest do przejścia jest to ilość powtórzeń naszej pętli
 ## Krok 4
-** Uwaga po wykonaniu pętli agent musi iść o jeden do przodu**
+** Uwaga po wykonaniu pętli agent musi iść o dwa do przodu**
 ## Krok 5
 Połącz program i uruchom
