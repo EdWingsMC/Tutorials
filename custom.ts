@@ -104,7 +104,7 @@ namespace Schody {
     }
 }
 
-//% weight=100 color=#D2AFFF icon="" 
+//% weight=100 color=#D2AFFF icon="" block="Podaj odpowiedź"
 namespace PodajOdp {
     //% block="Odpowiedź to $value"
     export function Math_result_1(value: number): void {
@@ -235,5 +235,35 @@ namespace HarvestTest {
     player.say("Nie zniszczyłeś wszystkich uli")
 }
         
+    }
+}
+//% weight=100 color=#D2AFFF icon="" block="Podaj odpowiedź"
+namespace Mapa8 {
+    //% block="Odpowiedź to $value"
+    export function Math_result_1(value: number): void {
+        if (value == 3) {
+            player.say("Gratulacje")
+            blocks.fill(AIR, world(-127, 90, -237), world(-126, 90, -237), FillOperation.Replace)
+        } else {
+            player.say("Zła odpowiedź")
+        }
+    }
+    //% block="Odpowiedź to $value"
+    export function Math_result_2(value: number): void {
+        if (value == -6) {
+            player.say("Gratulacje")
+            player.teleport(world(-74, 97, -238))
+        } else {
+            player.say("Zła odpowiedź")
+        }
+    }
+    //% block="Odpowiedź to $value"
+    export function Math_result_3(value: number): void {
+        if (value == 8) {
+            player.say("Gratulacje")
+        blocks.place(REDSTONE_TORCH, world(-73, 95, -237))
+        } else {
+            player.say("Zła odpowiedź")
+        }
     }
 }
