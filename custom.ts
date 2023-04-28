@@ -270,7 +270,7 @@ namespace Mapa8 {
 namespace Mapa9 {
 
  //% block="Przełącz opady"
-    export function weatherChange(value: number): void {
+    export function weatherChange(): void {
         gameplay.timeSet(gameplay.time(DAY))
         blocks.place(REDSTONE_TORCH, world(82,70,413))
         
