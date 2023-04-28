@@ -266,4 +266,13 @@ namespace Mapa8 {
             player.say("Zła odpowiedź")
         }
     }
+//% weight=100 color=#D2AFFF icon="" block="Rozgrywka"
+namespace Mapa9 {
+
+ //% block="Przełącz opady"
+    export function weatherChange(value: number): void {
+        gameplay.timeSet(gameplay.time(DAY))
+        blocks.place(REDSTONE_TORCH, world(82,70,413))
+        
+}
 }
