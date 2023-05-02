@@ -5,7 +5,7 @@ agent.teleportToPlayer()
 agent.setItem(GRASS, 1, 1)
 agent.place(FORWARD)
 ```
-# Zadanie 6
+# Zadanie 7
 ## Krok 1
 Doprowadź agenta w pobliże złotego bloku, pamiętając o odpowiedniej orientacji agenta.
 ## krok 2
