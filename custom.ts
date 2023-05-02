@@ -280,7 +280,7 @@ namespace Mapa9 {
        
          if (value == 18) {
             player.say("Gratulacje")
-            player.teleport(world(68,107,387))
+           blocks.place(REDSTONE_TORCH, world(68,107,387))
         } else {
             player.say("Zła odpowiedź")
         }
