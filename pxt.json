@@ -44,8 +44,8 @@
         "zajecia9/zad7.md",
         "zajecia9/zad8.md",
         "zajecia9/zad9.md",
-        "zajecia9/zad10.md",
-        "zajecia9/zad11.md"
+        "zajecia9/zad10.md"
+
     ],
     "testFiles": [
         "test.ts"
