@@ -275,4 +275,14 @@ namespace Mapa9 {
         blocks.place(REDSTONE_TORCH, world(82,70,413))
         
 }
+ //% block="Odpowiedź to"
+    export function Math_result(value: number): void {
+       
+         if (value == 18) {
+            player.say("Gratulacje")
+            player.teleport(world(68,107,387))
+        } else {
+            player.say("Zła odpowiedź")
+        }
+}
 }
