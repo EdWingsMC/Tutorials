@@ -267,7 +267,7 @@ namespace Mapa8 {
         }
     }
     }
-//% weight=100 color=#D2AFFF icon="" block="Rozgrywka"
+//% weight=100 color=#8F6D40 icon="" block="Rozgrywka"
 namespace Mapa9 {
 
  //% block="Przełącz opady"
