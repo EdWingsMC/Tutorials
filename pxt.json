@@ -32,7 +32,7 @@
         "zajecia7/zad3.md",
         "zajecia7/zad4.md",
         "zajecia7/zad5.md",
-         "zajecia8/zad1.md",
+        "zajecia8/zad1.md",
         "zajecia8/zad2.md",
         "zajecia8/zad3.md",
         "zajecia9/zad1.md",
@@ -51,7 +51,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.6.30",
+        "target": "1.19.52",
         "targetId": "minecraft"
     },
     "supportedTargets": [
