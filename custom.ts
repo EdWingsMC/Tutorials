@@ -266,6 +266,7 @@ namespace Mapa8 {
             player.say("Zła odpowiedź")
         }
     }
+    }
 //% weight=100 color=#D2AFFF icon="" block="Rozgrywka"
 namespace Mapa9 {
 
@@ -286,4 +287,4 @@ namespace Mapa9 {
         }
 }
 }
-}
+
