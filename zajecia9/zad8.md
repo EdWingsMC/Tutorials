@@ -5,8 +5,8 @@ player.teleport(world(0, 0, 0))
 ## Krok 1
 
 Tym razem musimy sami się przeteleportować na podane współrzędne aby przejśc dalej.<br>
-Aby to zrobić musimy użyć bloczku``||player:teleportuj do ||``
-z bloczkkiem ``||Position:świat(0,0,0)||``
+Aby to zrobić musimy użyć bloczku ``||player:teleportuj do ||``
+z bloczkiem ``||Position:świat(0,0,0)||``
 ```blocks
 world(0, 0, 0)
 ```
