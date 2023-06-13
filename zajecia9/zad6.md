@@ -10,11 +10,11 @@ blocks.onBlockBroken(DIRT, function () {
 # zadanie 6
 ## Krok 1
 
-W tym zadaniu musimy stworzyc program który spowoduje danie dam diamentu gdy zniszczymy blok ziemi.
+W tym zadaniu musimy stworzyć program który spowoduje że dostaniemy diament gdy zniszczymy blok ziemi.
 
 ## Krok 2
 
-W tym celu musimy wykryć zniszczenie bl;oku ziemi, zrobimy to bloczkiem ``||blocks:Gdy ziemia zniszczona||``
+W tym celu musimy wykryć zniszczenie bloku ziemi, zrobimy to bloczkiem ``||blocks:Gdy ziemia zniszczona||``
 
 ```blocks
 blocks.onBlockBroken(DIRT, function () {
