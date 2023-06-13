@@ -276,7 +276,7 @@ namespace Mapa9 {
         blocks.place(REDSTONE_TORCH, world(82,70,413))
         
 }
- //% block="Odpowiedź to"
+ //% block="Odpowiedź to $value"
     export function Math_result(value: number): void {
        
          if (value == 18) {
