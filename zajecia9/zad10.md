@@ -7,5 +7,5 @@ Mapa9.Math_result()
 Wpisz odpowiedź w bloczku ``||Mapa9:Odpowiedź to||``
 
 ```blocks
-Mapa8.Math_result()
+Mapa9.Math_result()
 ```
