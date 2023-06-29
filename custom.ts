@@ -287,4 +287,12 @@ namespace Mapa9 {
         }
 }
 }
+//% weight=100 color=#8F6D40 icon="" block="Agent"
+namespace Mapa15 {
 
+ //% block="Agent przesuń do przodu o 1"
+    export function MoveAgentForOneToForward(): void {
+       agent.move(FORWARD, 1)
+        
+}
+}
