@@ -7,7 +7,7 @@ while (true) {
     }
 }
 ```
-# zadanie 3
+# Zadanie 1 - Etap 3
 ## Krok 1
 Zostałeś oślepiony ale nie martw się pokieruje cię
 
