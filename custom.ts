@@ -295,4 +295,24 @@ namespace Mapa15 {
        agent.move(FORWARD, 1)
         
 }
+     //% block="Agent przesuń do tyłu o 1"
+    export function MoveAgentForOneToBack(): void {
+       agent.move(BACK, 1)
+        
+}
+     //% block="Agent przesuń w lewo o 1"
+    export function MoveAgentForOneToLeft(): void {
+       agent.move(LEFT, 1)
+        
+}
+     //% block="Agent przesuń w prawo o 1"
+    export function MoveAgentForOneToRight(): void {
+       agent.move(RIGHT, 1)
+        
+}
+         //% block="Agent przesuń do góry o 1"
+    export function MoveAgentForOneToUP(): void {
+       agent.move(UP, 1)
+        
+}
 }
