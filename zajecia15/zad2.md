@@ -7,7 +7,7 @@ while (true) {
     }
 }
 ```
-# zadanie 2
+# Zadanie 1 - Etap 2
 ## Krok 1
 Naszym zadaniem jest pokonanie tego samego labiryntu ale przy użyciu innej pętli oraz bloku warunku
 
