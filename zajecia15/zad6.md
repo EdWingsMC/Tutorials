@@ -1,6 +1,8 @@
 ```blocks
 while (!(agent.detect(AgentDetection.Block, FORWARD))) {
 }
+for (let index = 0; index < 4; index++) {
+}
 Mapa15.MoveAgentForOneToForward()
 Mapa15.MoveAgentForOneToBack()
 Mapa15.MoveAgentForOneToDown()
