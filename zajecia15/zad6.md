@@ -15,4 +15,4 @@ Mapa15.MoveAgentForOneToRight()
 Twoim zadaniem jest doprowadzenie agenta tam gdzie unosi się magia.<br>
 
 ## Krok 2
-Spróbuj użyć jak najmniej blocków programowania, sprawdźie kto zrobi to najkrócej
+Spróbuj użyć jak najmniej blocków programowania, sprawdźcie kto zrobi to najkrócej
