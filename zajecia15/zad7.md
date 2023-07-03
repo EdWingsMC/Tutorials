@@ -24,3 +24,6 @@ agent.setItem(WOOL, 30, 1)
 agent.setItem(BROWN_WOOL, 30, 2)
 agent.setSlot(1)
 ```
+## Krok 3
+Wybuduj pokazane budowle z odpowiednich materiałów<br>
+Jeśli się pomylisz możesz zresetować miejsce do budowania.
