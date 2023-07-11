@@ -315,4 +315,10 @@ namespace Mapa15 {
        agent.move(UP, 1)
         
 }
+         //% block="Agent przesuń na dół o 1"
+    export function MoveAgentForOneToDown(): void {
+       agent.move(DOWN, 1)
+        
+}
+   
 }
