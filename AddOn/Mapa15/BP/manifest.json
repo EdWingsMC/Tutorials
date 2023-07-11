@@ -1,0 +1,19 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Mapa 17",
+    "name": "Map 17 - Behavior Pack",
+    "uuid":"7d4bc34c-14fa-11ee-be56-0242ac120002",
+    "version": [1, 0, 2],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules":
+    [
+      {
+        "description": "Map 17",
+          "type": "data",
+          "uuid": "822bb534-14fa-11ee-be56-0242ac120002",
+          "version": [1, 0, 1]
+      }
+    ]
+}

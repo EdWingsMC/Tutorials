@@ -1,0 +1,78 @@
+{
+    "format_version":"1.17",
+    "minecraft:npc_dialogue":{
+        "scenes":[
+            {
+                "scene_tag":"quest1_3",
+                "npc_name":"Grzybiarz",
+                "text":"Przejście jest zamknięte, jestem tu od paru dni i nie mogę wyjść wydaje mi się że trzeba rozwiązać zagadke lasu aby przejście się otworzyło. Wygląda to jakby agent musiał zbudować pokazane budowle.",
+                "buttons":[
+                    {
+                        "name":"Sprawdź budowle",
+                        "commands":[
+                            "/execute as @p if blocks -567 69 -34 -563 74 -30 -567 69 -27 all run function quest3/stage_1_end"
+                        ]
+                    },
+                    {
+                        "name":"Reset budowli",
+                        "commands":[
+                            "/execute as @p run function quest3/reset_buildplace"
+                        ]
+                    }
+                ],
+                "on_open_commands": [
+                    "/setblock -558 65 -34 redstone_torch"
+                  ]
+            },
+            {
+                "scene_tag":"quest2_3",
+                "npc_name":"Grzybiarz",
+                "text":"Las podał kolejną budowle, bierzmy się do roboty",
+                "buttons":[
+                    {
+                        "name":"Sprawdź budowle",
+                        "commands":[
+                            "/execute as @p if blocks -567 69 -34 -563 74 -30 -567 69 -27 all run function quest3/stage_2_end"
+                        ]
+                    },
+                    {
+                        "name":"Reset budowli",
+                        "commands":[
+                            "/execute as @p run function quest3/reset_buildplace"
+                        ]
+                    }
+                ],
+                "on_open_commands": [
+                    "/setblock -558 65 -32 redstone_torch"
+                  ]
+            },
+            {
+                "scene_tag":"quest3_3",
+                "npc_name":"Grzybiarz",
+                "text":"Coraz trudniej sie robi mam nadzieje że ta budowla jest ostatnia",
+                "buttons":[
+                    {
+                        "name":"Sprawdź budowle",
+                        "commands":[
+                            "/execute at @p if blocks -567 69 -34 -563 74 -30 -567 69 -27 all run function quest3/stage_3_end"
+                        ]
+                    },
+                    {
+                        "name":"Reset budowli",
+                        "commands":[
+                            "/execute as @p run function quest3/reset_buildplace"
+                        ]
+                    }
+                ],
+                "on_open_commands": [
+                    "/setblock -558 65 -30 redstone_torch"
+                  ]
+            },
+            {
+                "scene_tag":"quest4_3",
+                "npc_name":"Grzybiarz",
+                "text":"Świetna robota przejście zostało otworzone, idź dalej"
+            }
+        ]
+    }
+}
