@@ -7,4 +7,5 @@ for (let index = 0; index < 4; index++) {
 ## Krok 1
 
 *Jeśli każesz iśc agentowi 5 do przodu ale napotka przed soba blok to poprostu się zatrzyma* <br>
-Używając dwóch pętli rozwiąż to zadania 
+## Krok 2
+Używając dwóch pętli rozwiąż to zadania. Doprowadź agenta na płytke naciskową
