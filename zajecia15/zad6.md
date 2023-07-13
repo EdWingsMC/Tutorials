@@ -6,7 +6,7 @@ for (let index = 0; index < 4; index++) {
 Mapa15.MoveAgentForOneToForward()
 Mapa15.MoveAgentForOneToBack()
 Mapa15.MoveAgentForOneToDown()
-Mapa15.MoveAgentForOneToUp()
+Mapa15.MoveAgentForOneToUP()
 Mapa15.MoveAgentForOneToLeft()
 Mapa15.MoveAgentForOneToRight()
 ```
