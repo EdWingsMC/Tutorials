@@ -12,18 +12,7 @@ agent.setItem(WOOL, 30, 1)
 agent.setItem(BROWN_WOOL, 30, 2)
 agent.setSlot(1)
 ```
-# Zadanie 3 - Etap 1
+# Zadanie 3 - Etap 3
 ## Krok 1
-Twoim zadaniem jest zbudowanie takich samych budowli jakie zostały pokazane przez władce lasu.
+To już chyba ostatnia budowla do zbudowania. Daj z siebie wszystko!
 
-## Krok 2
-Klikająć zaróweczke jest podpowiedź jak dać odpowiedni blok agentowi i jak wybrać aktywny slot <br>
-Aktywny slot odpowiada za to z którego miejsca w ekwipunku agenta będzie korzystać.
-```blocks
-agent.setItem(WOOL, 30, 1)
-agent.setItem(BROWN_WOOL, 30, 2)
-agent.setSlot(1)
-```
-## Krok 3
-Wybuduj pokazane budowle z odpowiednich materiałów<br>
-Jeśli się pomylisz możesz zresetować miejsce do budowania.
