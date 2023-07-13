@@ -10,7 +10,7 @@ Mapa15.MoveAgentForOneToRight()
 ```
 # Zadanie 2 - Etap 1
 ## Krok 1
-Twoim zadaniem jest doprowadzenie agenta tam gdzie unosi się magia.<br>
+Twoim zadaniem jest doprowadzenie agenta tam gdzie unosi się zielona chmura.<br>
 Klątwa spowodowała że twój agent może poruszać się tylko o jedną kratke w dowolną strone.<br>
 Na szczęście mamy pętle !
 
