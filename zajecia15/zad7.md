@@ -17,8 +17,9 @@ agent.setSlot(1)
 Twoim zadaniem jest zbudowanie takich samych budowli jakie zostały pokazane przez władce lasu.
 
 ## Krok 2
-Klikająć zaróweczke jest podpowiedź jak dać odpowiedni blok agentowi i jak wybrać aktywny slot <br>
-Aktywny slot odpowiada za to z którego miejsca w ekwipunku agenta będzie korzystać.
+Klikając żaróweczke pojawi się podpowiedź jak dać odpowiedni blok do ekwipunku agentowi i jak wybrać aktywny slot <br>
+Aktywny slot odpowiada za to z którego miejsca w ekwipunku agenta będzie korzystać. <br>
+Czyli ten z któego agent korzysta do budowania.
 ```blocks
 agent.setItem(WOOL, 30, 1)
 agent.setItem(BROWN_WOOL, 30, 2)
