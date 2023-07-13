@@ -10,7 +10,7 @@ Mapa15.MoveAgentForOneToRight()
 ```
 # Zadanie 2 - Etap 2
 ## Krok 1
-Twoim zadaniem jest doprowadzenie agenta tam gdzie unosi się magia.<br>
+Twoim zadaniem jest doprowadzenie agenta tam gdzie znów unosi się zielona chmura.<br>
 
 ## Krok 2
 **Pomoge ci trochę** program powinien wyglądać mniej więcej tak <br>
@@ -19,3 +19,8 @@ Twoim zadaniem jest doprowadzenie agenta tam gdzie unosi się magia.<br>
 3. pętla która działa aż agent nie spotka bloku w wewnątrz pętli (idź wstecz)
 4. bloczek poruszania się na dół
 5. pętla która działa aż agent nie spotka bloku w wewnątrz pętli (idź prosto)
+```blocks
+while (!(agent.detect(AgentDetection.Block, FORWARD))) {
+}
+
+```
