@@ -34,12 +34,12 @@ Umieśc obydwa bloczki do pętli ``||loops:Powtórz ? razy wykonaj||``
 ## Krok 6 
 Policz ile razy ma wykonać się pętla licząc boki trasy po której ma poruszać się agent i wpisz liczbe do pętli
 
-## Krok 7 Program powinien wyglądać następująco 
+## Krok 7
+Program powinien wyglądać następująco 
 
 ```blocks
 for (let index = 0; index < 3; index++) {
     agent.move(FORWARD, 7)
     agent.turn(LEFT_TURN)
 }
-
 ```
