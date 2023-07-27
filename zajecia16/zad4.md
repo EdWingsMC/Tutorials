@@ -1,5 +1,5 @@
 ```blocks
-
+mobs.applyEffect(SPEED, mobs.target(ALL_ENTITIES), 60, 10)
 ```
 # Efekty
 
