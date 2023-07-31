@@ -6,7 +6,7 @@ pos(0, 0, 0),
 WEST
 )
 ```
-# Drukwoanie tekstu
+# Drukowanie tekstu
 
 ## Krok 1
 Wzbij się w powietrze tak aby wydrukowany tekst był dobrze widoczny.
