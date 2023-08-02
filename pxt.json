@@ -70,7 +70,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.19.52",
+        "target": "1.19.53",
         "targetId": "minecraft"
     },
     "supportedTargets": [
