@@ -1,6 +1,3 @@
-```blocks
-
-```
 
 # Twój program
 
