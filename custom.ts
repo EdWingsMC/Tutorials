@@ -250,7 +250,7 @@ namespace Mapa8 {
     }
     //% block="Odpowiedź to $value"
     export function Math_result_2(value: number): void {
-        if (value == -6) {
+        if (value == 4) {
             player.say("Gratulacje")
             player.teleport(world(-74, 97, -238))
         } else {
