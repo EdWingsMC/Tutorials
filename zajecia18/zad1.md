@@ -8,7 +8,7 @@ while (true) {
 }
 
 ```
-# Etap 1/3
+# Etap 1/2
 
 ## Krok 1
 Program jest prawie gotowy jedyne co musisz zrobić to <br>
