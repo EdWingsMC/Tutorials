@@ -322,3 +322,56 @@ namespace Mapa15 {
 }
    
 }
+
+//% weight=100 color=#b81c9b icon=""
+namespace Logika {
+
+    let red = 0
+    let yellow = 0
+    //% block="Dodaj czerwony"
+    export function Add_red(): void {
+       red += 1
+    }
+    //% block="Dodaj żółty"
+    export function Add_yellow(): void {
+        yellow += 1
+    }
+    //% block="Sprawdź wyniki"
+    export function test(): void {
+        if(yellow==3&&red==4){
+            if (world(71, 69, -163) == agent.getPosition()) {
+                player.say("/title @p title Spróbuj jeszcze raz")
+                agent.teleport(pos(71, 69, -161), NORTH)
+                red = 0
+                yellow = 0
+            }
+            else if (world(71, 69, -164) == agent.getPosition()) {
+                player.say("/title @p title Spróbuj jeszcze raz")
+                agent.teleport(pos(71, 69, -161), NORTH)
+                red = 0
+                yellow = 0
+            }
+            else if (world(71, 69, -165) == agent.getPosition()) {
+                player.say("/title @p title Spróbuj jeszcze raz")
+                agent.teleport(pos(71, 69, -161), NORTH)
+                red = 0
+                yellow = 0
+            }
+            else if (world(71, 69, -166) == agent.getPosition()) {
+                player.say("/title @p title Spróbuj jeszcze raz")
+                agent.teleport(pos(71, 69, -161), NORTH)
+                red = 0
+                yellow = 0
+            }else{
+                player.say("/title @p title Gratulacje")
+                blocks.place(REDSTONE_TORCH, pos(66, 65, -161))
+            }
+            
+        }else{
+            player.say("/title @p title Spróbuj jeszcze raz")
+            agent.teleport(pos(71, 69, -161), NORTH)
+            red=0
+            yellow=0
+        }
+    }
+}
