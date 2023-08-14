@@ -340,35 +340,35 @@ namespace Logika {
     export function test(): void {
         if(yellow==3&&red==4){
             if (world(71, 69, -163) == agent.getPosition()) {
-                player.say("/title @p title Spróbuj jeszcze raz")
+                player.execute("/title @p title Spróbuj jeszcze raz")
                 agent.teleport(pos(71, 69, -161), NORTH)
                 red = 0
                 yellow = 0
             }
             else if (world(71, 69, -164) == agent.getPosition()) {
-                player.say("/title @p title Spróbuj jeszcze raz")
+                player.execute("/title @p title Spróbuj jeszcze raz")
                 agent.teleport(pos(71, 69, -161), NORTH)
                 red = 0
                 yellow = 0
             }
             else if (world(71, 69, -165) == agent.getPosition()) {
-                player.say("/title @p title Spróbuj jeszcze raz")
+                player.execute("/title @p title Spróbuj jeszcze raz")
                 agent.teleport(pos(71, 69, -161), NORTH)
                 red = 0
                 yellow = 0
             }
             else if (world(71, 69, -166) == agent.getPosition()) {
-                player.say("/title @p title Spróbuj jeszcze raz")
+                player.execute("/title @p title Spróbuj jeszcze raz")
                 agent.teleport(pos(71, 69, -161), NORTH)
                 red = 0
                 yellow = 0
             }else{
-                player.say("/title @p title Gratulacje")
+                player.execute("/title @p title Gratulacje")
                 blocks.place(REDSTONE_TORCH, pos(66, 65, -161))
             }
             
         }else{
-            player.say("/title @p title Spróbuj jeszcze raz")
+            player.execute("/title @p title Spróbuj jeszcze raz")
             agent.teleport(pos(71, 69, -161), NORTH)
             red=0
             yellow=0
