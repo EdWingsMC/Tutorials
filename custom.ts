@@ -396,8 +396,8 @@ namespace School {
     }
     //% block="Nie mam zadania domowego"
     export function No_homework(): boolean {
-        blocks_num += 1
-        correct = false
+        //blocks_num += 1
+       // correct = false
         return false
     }
     //% block="Mam zadanie domowe"
