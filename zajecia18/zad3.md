@@ -20,7 +20,7 @@ Agent będzie szedł do przodu a następnie porównywał czy to co jest przed ni
 ## Krok 2
 Masz podany kawałek kodu. Twoim zadaniem jest dokończenie go. <br>
 Stwórz odpowiednie warunki w którym **porównasz** dany kwiatek z tym co widzi agent przed sobą.<br>
-Użyj do tego ``||agent:agent kontroluj blok do przodu||`` oraz ``||blocks:kwiatek||``<br>
+Użyj do tego bloczku porównania z zakładaki logika a następnie włóż do tego ``||agent:agent kontroluj blok do przodu||`` i ``||blocks: blok||``<br>
 Powinno to wyglądać tak <br>
 agent kontroluj blok = czerwony kwiatek<br>
 agent kontroluj blok = żółty kwiatek<br>
@@ -37,4 +37,5 @@ for (let index = 0; index < 7; index++) {
     }
     agent.move(FORWARD, 1)
 }
+Logika.test()
 ```
