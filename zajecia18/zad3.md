@@ -24,7 +24,7 @@ Użyj do tego bloczku porównania z zakładaki logika a następnie włóż do te
 Powinno to wyglądać tak <br>
 agent kontroluj blok = czerwony kwiatek<br>
 agent kontroluj blok = żółty kwiatek<br>
-Następnie dodaj do każdego warunku zwiększenie ilości danego koloru aby agent mógł je policzyć.
+Następnie dodaj do każdego warunku zwiększenie ilości danego koloru aby agent mógł je policzyć z zakładki Liczenie.
 
 ```template
 
