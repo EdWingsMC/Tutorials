@@ -375,3 +375,52 @@ namespace Logika {
         }
     }
 }
+//% weight=100 color=#b53a31 icon="" block="Szkoła"
+namespace School {
+    let correct = true
+    let blocks_num = 0
+    let result = 0
+    //% block="Zgłoś NP"
+    export function Yes_np(): void {
+        blocks_num += 1
+       if(correct){
+           result = 1
+       }
+    }
+    //% block="Nie zgłaszaj NP"
+    export function No_np(): void {
+        blocks_num += 1
+        if (!correct) {
+            result = 1
+        }
+    }
+    //% block="Nie mam zadania domowego"
+    export function No_homework(): boolean {
+        blocks_num += 1
+        correct = false
+        return false
+    }
+    //% block="Mam zadanie domowe"
+    export function Yes_homework(): boolean {
+        blocks_num += 1
+        correct = true
+        return true
+    }
+    //% block="Start zajęć"
+    export function start(): void {
+        if (blocks_num==3){
+            if(result==1){
+     if(correct){
+         blocks.place(REDSTONE_TORCH, world(52, 57, -170))
+     }else{
+         blocks.place(REDSTONE_TORCH, world(54, 57, -170))
+     }
+                
+            }
+        }else{
+            let blocks_num = 0
+            let result = 0
+            player.say("/title @p title Spróbuj jeszcze raz")
+        }
+    }
+}
