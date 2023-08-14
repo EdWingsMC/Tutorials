@@ -323,7 +323,7 @@ namespace Mapa15 {
    
 }
 
-//% weight=100 color=#b81c9b icon=""
+//% weight=100 color=#b81c9b icon="" block="Liczenie"
 namespace Logika {
 
     let red = 0
