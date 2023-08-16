@@ -1,5 +1,5 @@
 ```blocks
-if () {} else {}
+if (true) {} else {}
 School.Yes_homework()
 School.No_np()
 School.Yes_np()
@@ -14,7 +14,7 @@ Powinieneś użyć 3 bloków.<br>
 Jeden użyć jako warunek i dwa jako to co ma się stać.
 
 ```template
-  if () {
+  if (true) {
  
     } else {
   
