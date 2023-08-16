@@ -21,7 +21,7 @@ Jeden użyć jako warunek i dwa jako to co ma się stać.
 
 ```
 ```template
-  if () {
+  if (true) {
  
     } else {
   
