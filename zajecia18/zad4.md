@@ -11,9 +11,17 @@ Dokończ program, aby gdy nie masz zadania domowego zgłosić Nie przygotowanie 
 ## Krok 2
 Powinieneś użyć 3 bloków.<br>
 Jeden użyć jako warunek i dwa jako to co ma się stać.
-
-```template
+```blocks
   if (School.Yes_homework()) {
+ 
+    } else {
+  
+    }
+    School.start()
+
+```
+```template
+  if () {
  
     } else {
   
