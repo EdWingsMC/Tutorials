@@ -13,7 +13,7 @@ Powinieneś użyć 3 bloków.<br>
 Jeden użyć jako warunek i dwa jako to co ma się stać.
 
 ```template
-  if (true) {
+  if (School.Yes_homework()) {
  
     } else {
   
