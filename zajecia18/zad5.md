@@ -13,7 +13,14 @@ Zwróć uwage że zmienił się teraz warunek.
 Powinieneś użyć 3 bloków.<br>
 Jeden użyć jako warunek i dwa jako to co ma się stać.
 ```blocks
-School.No_homework()
+
+  if (School.No_homework()) {
+        
+    } else {
+      
+    }
+    School.start()
+
 ```
 ```template
     if (true) {
