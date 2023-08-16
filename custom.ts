@@ -395,16 +395,16 @@ namespace School {
         }
     }
     //% block="Nie mam zadania domowego"
-    export function No_homework(): Boolean{
+    export function No_homework(): number{
         blocks_num += 1;
         correct = false;
-        return false;
+        return 1;
     }
     //% block="Mam zadanie domowe"
-    export function Yes_homework(): boolean {
+    export function Yes_homework(): number {
         blocks_num += 1;
         correct = true;
-        return true;
+        return 1;
     }
     //% block="Start zajęć"
     export function start(): void {
