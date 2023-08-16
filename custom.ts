@@ -420,7 +420,7 @@ namespace School {
         }else{
             let blocks_num = 0;
             let result = 0;
-            player.say("/title @p title Spróbuj jeszcze raz")
+            player.execute("/title @p title Spróbuj jeszcze raz")
         }
     }
 }
