@@ -395,13 +395,13 @@ namespace School {
         }
     }
     //% block="Nie mam zadania domowego"
-    export function No_homework(){
+    export function No_homework(): Boolean{
         blocks_num += 1
         correct = false
         return false
     }
     //% block="Mam zadanie domowe"
-    export function Yes_homework() {
+    export function Yes_homework(): Boolean {
         blocks_num += 1
         correct = true
         return true
