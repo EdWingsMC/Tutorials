@@ -394,12 +394,15 @@ namespace School {
             result = 1;
         }
     }
+    //% blockId=NoHomework
     //% block="Nie mam zadania domowego"
     export function No_homework(): boolean {
         blocks_num += 1;
         correct = false;
-        return false;
+        return false
     }
+  
+    //% blockId=YesHomework
     //% block="Mam zadanie domowe"
     export function Yes_homework(): boolean {
         blocks_num += 1;
