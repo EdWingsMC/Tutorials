@@ -20,7 +20,7 @@ a w przeciwnym razie szedł do przodu.
 
 ```template
 while (true) {
-    if () {
+    if (true) {
      
     } else {
       
