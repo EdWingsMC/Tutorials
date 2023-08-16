@@ -1,5 +1,4 @@
 ```blocks
-if (true) {} else {}
 School.No_homework()
 School.No_np()
 School.Yes_np()
