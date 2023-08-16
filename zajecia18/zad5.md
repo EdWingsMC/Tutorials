@@ -12,7 +12,9 @@ Zwróć uwage że zmienił się teraz warunek.
 ## Krok 2
 Powinieneś użyć 3 bloków.<br>
 Jeden użyć jako warunek i dwa jako to co ma się stać.
-
+```blocks
+School.No_homework()
+```
 ```template
     if (true) {
         
