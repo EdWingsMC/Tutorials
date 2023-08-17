@@ -413,9 +413,9 @@ namespace School {
     export function start(): void {
         if (blocks_num==2){
             if(result==1){
-     if(correct){
+     if(correct==1){
          blocks.place(REDSTONE_TORCH, world(52, 57, -170))
-     }else{
+     }else(correct==2){
          blocks.place(REDSTONE_TORCH, world(54, 57, -170))
      }
                 
