@@ -415,7 +415,7 @@ namespace School {
             if(result==1){
      if(correct==1){
          blocks.place(REDSTONE_TORCH, world(52, 57, -170))
-     }else(correct==2){
+     }else if(correct==2){
          blocks.place(REDSTONE_TORCH, world(54, 57, -170))
      }
                 
