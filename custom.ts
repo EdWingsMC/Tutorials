@@ -377,20 +377,20 @@ namespace Logika {
 }
 //% weight=100 color=#b53a31 icon="" block="Szkoła"
 namespace School {
-    let correct = true;
+    let correct = 0;
     let blocks_num = 0;
     let result = 0;
     //% block="Zgłoś NP"
     export function Yes_np(): void {
         blocks_num += 1;
-       if(correct){
+       if(correct==2){
            result = 1;
        }
     }
     //% block="Nie zgłaszaj NP"
     export function No_np(): void {
         blocks_num += 1;
-        if (!correct) {
+        if (correct==1) {
             result = 1;
         }
     }
@@ -398,7 +398,7 @@ namespace School {
     //% block="Nie mam zadania domowego"
     export function No_homework(): boolean {
         blocks_num += 1;
-        correct = false;
+        correct = 2;
         return false
     }
   
@@ -406,7 +406,7 @@ namespace School {
     //% block="Mam zadanie domowe"
     export function Yes_homework(): boolean {
         blocks_num += 1;
-        correct = true;
+        correct = 1;
         return true;
     }
     //% block="Start zajęć"
