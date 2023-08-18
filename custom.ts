@@ -378,18 +378,15 @@ namespace Logika {
 //% weight=100 color=#b53a31 icon="" block="Szkoła"
 namespace School {
     let correct = 0;
-    let blocks_num = 0;
     let result = 0;
     //% block="Zgłoś NP"
     export function Yes_np(): void {
-        blocks_num += 1;
        if(correct==2){
            result = 1;
        }
     }
     //% block="Nie zgłaszaj NP"
     export function No_np(): void {
-        blocks_num += 1;
         if (correct==1) {
             result = 1;
         }
@@ -397,7 +394,6 @@ namespace School {
     //% blockId=NoHomework
     //% block="Nie mam zadania domowego"
     export function No_homework(): boolean {
-        blocks_num += 1;
         correct = 2;
         return false
     }
@@ -405,23 +401,20 @@ namespace School {
     //% blockId=YesHomework
     //% block="Mam zadanie domowe"
     export function Yes_homework(): boolean {
-        blocks_num += 1;
         correct = 1;
         return true;
     }
     //% block="Start zajęć"
     export function start(): void {
-        if (blocks_num==2){
+
             if(result==1){
      if(correct==1){
          blocks.place(REDSTONE_TORCH, world(52, 57, -170))
      }else if(correct==2){
          blocks.place(REDSTONE_TORCH, world(54, 57, -170))
      }
-                
-            }
+
         }else{
-            let blocks_num = 0;
             let result = 0;
             player.execute("/title @p title Spróbuj jeszcze raz")
         }
