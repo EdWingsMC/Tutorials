@@ -390,6 +390,9 @@ namespace School {
         if (correct==1) {
             result = 1;
         }
+         if(correct==2){
+           result = 1;
+       }
     }
     //% blockId=NoHomework
     //% block="Nie mam zadania domowego"
