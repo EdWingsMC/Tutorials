@@ -1,6 +1,6 @@
 ```blocks
 while (true) {
-    if (agent.inspect(AgentInspection.Block, DOWN) == GOLD_BLOCK) {
+    if (agent.inspect(AgentInspection.Block, FORWARD) == GOLD_BLOCK) {
         agent.turn(RIGHT_TURN)
     } else {
         agent.move(FORWARD, 1)
@@ -13,7 +13,7 @@ while (true) {
 # Etap 1
 
 ## Krok 1
-W tym zadaniu będziemy chcieli zaprogramować agenta aby wyszukał blok złota pod sobą a gdy go znajdzie obrócił się w prawo.<br>
+W tym zadaniu będziemy chcieli zaprogramować agenta aby wyszukał blok złota przed sobą a gdy go znajdzie obrócił się w prawo.<br>
 W przeciwnym razie szedł prosto
 
 ## Krok 2
@@ -31,7 +31,7 @@ I wykona sie to co jest w pierwszym segmencie warunku.
 **Zapamiętaj jak wygląda program bo w kolejnym etapie będziesz musiał zrobić to sam**
 ```template
 while (true) {
-    if (agent.inspect(AgentInspection.Block, DOWN) == GOLD_BLOCK) {
+    if (agent.inspect(AgentInspection.Block, FORWARD) == GOLD_BLOCK) {
      
     } else {
       
