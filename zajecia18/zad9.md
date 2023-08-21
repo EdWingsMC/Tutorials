@@ -18,7 +18,7 @@ Nic nie stoi na przeszkodzie aby testować kilka bloków i wykonaywać różne z
 W tym zadaniu rozbudujemy nasz program aby agent nie tylko skręcał w prawo gdy napotka blok złota ale też skręcał w lewo gdy napotka blok diamnetu.
 
 ## Krok 3
-Do kończ tworzenie drugiego warunku aby wykrywał blok diamntu
+Dokończ tworzenie drugiego warunku aby wykrywał blok diamntu
 ```template
 while (true) {
     if (agent.inspect(AgentInspection.Block, FORWARD) == GOLD_BLOCK) {
