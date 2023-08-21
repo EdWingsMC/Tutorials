@@ -1,6 +1,6 @@
 ```blocks
 while (true) {
-    if (agent.inspect(AgentInspection.Block, DOWN) == GOLD_BLOCK) {
+    if (agent.inspect(AgentInspection.Block, FORWARD) == GOLD_BLOCK) {
         agent.turn(RIGHT_TURN)
     } else {
         agent.move(FORWARD, 1)
