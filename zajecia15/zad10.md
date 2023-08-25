@@ -3,7 +3,9 @@ for (let index = 0; index < 4; index++) {
 }
     if (agent.inspect(AgentInspection.Block, DOWN) == RED_MUSHROOM) {
         agent.destroy(FORWARD)
-    }
+    }else{
+Mapa15.MoveAgentForOneToForward()
+}
 
 ```
 # Zadanie 4
