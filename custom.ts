@@ -62,6 +62,7 @@ namespace Schody {
                 FillOperation.Replace
             )
             agent.teleport(world(133, 16, -449), WEST)
+            blocks.place(REDSTONE_TORCH, world(93, 1, -429))
         }
     }
     //% block="Napraw zielone schody"
@@ -81,6 +82,7 @@ namespace Schody {
                 FillOperation.Replace
             )
             agent.teleport(world(133, 16, -449), WEST)
+            blocks.place(REDSTONE_TORCH, world(93, 1, -429))
         }
     }
     //% block="Napraw białe schody"
@@ -100,6 +102,7 @@ namespace Schody {
                 FillOperation.Replace
             )
             agent.teleport(world(133, 16, -449), WEST)
+            blocks.place(REDSTONE_TORCH, world(93, 1, -429))
         }
     }
 }
