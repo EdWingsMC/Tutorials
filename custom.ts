@@ -113,6 +113,7 @@ namespace PodajOdp {
     export function Math_result_1(value: number): void {
         if (value == 31) {
             player.teleport(world(148, 28, -552))
+            player.say("Dobra odpowiedź")
         } else {
             player.say("Zła odpowiedź")
         }
@@ -121,6 +122,7 @@ namespace PodajOdp {
     export function Math_result_2(value: number): void {
         if (value == 10) {
             player.teleport(world(148, 48, -552))
+            player.say("Dobra odpowiedź")
         } else {
             player.say("Zła odpowiedź")
         }
