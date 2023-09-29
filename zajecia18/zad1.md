@@ -10,5 +10,7 @@ for (let index = 0; index < 6; index++) {
 
 ## Treść
 Twoim zadaniem jest doprowadzić agenta do niebieskiego bloku.<br>
-**Musisz użyć pętli !**
+**Musisz użyć pętli !**<br>
+Jeśli twój agent wykona zadanie zbyt wolno, zostanie zresetowany.<br>
+Dlatego trzeba użyć pętli.
 
