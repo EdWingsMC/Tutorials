@@ -8,7 +8,7 @@ for (let index = 0; index < 6; index++) {
 ```
 # Zadanie 1
 
-## Krok 1
+## Treść
 Twoim zadaniem jest doprowadzić agenta do niebieskiego bloku.<br>
 **Musisz użyć pętli !**
 
