@@ -10,4 +10,4 @@ while (false) {
 # Powtórka
 
 ## Krok 1
-Zadanie powinno być ci dobrze znane. Musisz zaprogramować agenta w taki sposób aby po wykryciu bloku złotas skręcił w lewo w przeciwnym razie szedł do przodu.
+Zadanie powinno być ci dobrze znane. Musisz zaprogramować agenta w taki sposób aby po wykryciu bloku złota skręcił w lewo w przeciwnym razie szedł do przodu.
