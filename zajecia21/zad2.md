@@ -22,3 +22,5 @@ while (true) {
     }
 }
 ```
+## Krok 2
+Zadanie posiada limit czasowy jeśli będziesz próbować oszukiwać, zadanie zostanie zresetowane.
