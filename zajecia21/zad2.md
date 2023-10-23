@@ -11,7 +11,7 @@ while (true) {
 
 ## Krok 1
 Wykorzystaj wiedze odnośnie OR aby rozwiązać to zadanie. <br>
-Agent musi skręcić w lewo gdy wykryje blok złota lub diamentu <br>
+Agent musi skręcić w lewo gdy wykryje blok **złota lub diamentu** <br>
 w przeciwnym razie ma iść do przodu
 ```blocks
 while (true) {
