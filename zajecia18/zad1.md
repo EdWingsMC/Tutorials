@@ -1,3 +1,6 @@
+### @flyoutOnly true
+### @hideIteration true
+### @explicitHints true
 ```blocks
 for (let index = 0; index < 6; index++) {
     agent.move(FORWARD, 1)
