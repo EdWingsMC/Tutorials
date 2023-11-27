@@ -369,7 +369,7 @@ namespace Logika {
                 yellow = 0
             }else{
                 player.execute("/title @p title Gratulacje")
-                blocks.place(REDSTONE_TORCH, world(66, 65, -161))
+                blocks.place(REDSTONE_TORCH, world(66, 66, -161))
             }
             
         }else{
