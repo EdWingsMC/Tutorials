@@ -346,25 +346,25 @@ namespace Logika {
         if(yellow==3&&red==4){
             if (world(71, 69, -163) == agent.getPosition()) {
                 player.execute("/title @p title Spróbuj jeszcze raz")
-                agent.teleport(pos(71, 69, -161), NORTH)
+                agent.teleport(world(71, 69, -161), NORTH)
                 red = 0
                 yellow = 0
             }
             else if (world(71, 69, -164) == agent.getPosition()) {
                 player.execute("/title @p title Spróbuj jeszcze raz")
-                agent.teleport(pos(71, 69, -161), NORTH)
+                agent.teleport(world(71, 69, -161), NORTH)
                 red = 0
                 yellow = 0
             }
             else if (world(71, 69, -165) == agent.getPosition()) {
                 player.execute("/title @p title Spróbuj jeszcze raz")
-                agent.teleport(pos(71, 69, -161), NORTH)
+                agent.teleport(world(71, 69, -161), NORTH)
                 red = 0
                 yellow = 0
             }
             else if (world(71, 69, -166) == agent.getPosition()) {
                 player.execute("/title @p title Spróbuj jeszcze raz")
-                agent.teleport(pos(71, 69, -161), NORTH)
+                agent.teleport(world(71, 69, -161), NORTH)
                 red = 0
                 yellow = 0
             }else{
@@ -374,7 +374,7 @@ namespace Logika {
             
         }else{
             player.execute("/title @p title Spróbuj jeszcze raz")
-            agent.teleport(pos(71, 69, -161), NORTH)
+            agent.teleport(world(71, 69, -161), NORTH)
             red=0
             yellow=0
         }
