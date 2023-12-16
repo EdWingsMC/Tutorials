@@ -433,8 +433,8 @@ namespace Bloki {
   
     //% block="Umieść blok w pozycji (x: ~%x y: ~%y z: ~%z)"
     export function placeBlock(x: number, y: number, z: number): void {
-        if (x > 3 || y > 3 || z > 3 || x < -3 || y < 0 || z < -3) {
-            player.say("liczby w koordynatach muszą być mniejsze niż 4 a wysokość nie może być ujemna")
+        if (x > 2 || y > 2 || z > 2 || x < -2 || y < 0 || z < -2) {
+            player.say("liczby w koordynatach muszą być mniejsze niż 3 a wysokość nie może być ujemna")
         } else {
             blocks.place(STONE, pos(x,y,z))
         }
