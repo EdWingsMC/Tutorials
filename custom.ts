@@ -431,7 +431,7 @@ namespace School {
 //% weight=100 color=#7ABB55 icon=""
 namespace Bloki {
   
-    //% block="Umieść blok w pozycji (x:%x y:%y z:%z)"
+    //% block="Umieść blok w pozycji (x: ~%x y: ~%y z: ~%z)"
     export function placeBlock(x: number, y: number, z: number): void {
         if (x > 3 || y > 3 || z > 3 || x < -3 || y < 0 || z < -3) {
             player.say("liczby w koordynatach muszą być mniejsze niż 4 a wysokość nie może być ujemna")
