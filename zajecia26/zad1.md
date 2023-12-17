@@ -3,7 +3,7 @@ Bloki.placeBlock()
 ```
 # Koordynaty
 ## Treść zadania
-Twoim zadaniem jest postawić jakikolwiek blok na czerwonym bloku, przy użyciu koordynatów względnych. <br>
+Twoim zadaniem jest postawić blok na czerwonym bloku, przy użyciu koordynatów względnych. <br>
 Czyli tych liczonych od pozycji twojej postaci.<br>
 Do okoła ciebie masz tabliczki z podpowiedziami.
 
