@@ -430,13 +430,13 @@ namespace School {
 }
 //% weight=100 color=#7ABB55 icon=""
 namespace Bloki {
-  
+
     //% block="Umieść blok w pozycji (x: ~%x y: ~%y z: ~%z)"
     export function placeBlock(x: number, y: number, z: number): void {
-        if (x > 2 || y > 2 || z > 2 || x < -2 || y < 0 || z < -2) || ( x==0 && z==0 && y==0 ) {
+        if (x > 2 || y > 2 || z > 2 || x < -2 || y < 0 || z < -2 || (x == 0 && z == 0 && y == 0)) {
             player.say("liczby w koordynatach muszą być mniejsze niż 3 a wysokość nie może być ujemna")
         } else {
-            blocks.place(STONE, pos(x,y,z))
+            blocks.place(STONE, pos(x, y, z))
         }
     }
 }
