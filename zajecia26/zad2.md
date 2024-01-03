@@ -6,7 +6,7 @@ Bloki.placeBlock()
 Twoim zadaniem jest postawić blok na czerwonym bloku, przy użyciu koordynatów względnych. <br>
 Czyli tych liczonych od pozycji twojej postaci.<br>
 Do okoła ciebie masz tabliczki z podpowiedziami.<br>
-Uwaga aby poprawnie rozwiązać zadanie przełączaj kroki w samouczku tzn. Jeśli robisz zadanie pierwsze to ustaw krok 1 <br.
+Uwaga aby poprawnie rozwiązać zadanie przełączaj kroki w samouczku tzn. Jeśli robisz zadanie pierwsze to ustaw krok 1 <br>.
 Jeśli zadanie srugie to krok 2 itd.
 
 ## Podpowiedź
